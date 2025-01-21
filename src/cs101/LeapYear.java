@@ -3,7 +3,7 @@ package cs101;
 public class LeapYear {
 
 	public static void main(String[] args) {
-		int year = 2025;
+		int year = 2007;
 		boolean isLeapYear;
 
 		// divisible by 4
@@ -23,6 +23,17 @@ public class LeapYear {
 		// expressions)
 		// (not just set it to the literal `true` or `false`)
 		// print out `isNotLeapYear`
+		
+		boolean isNotLeapYear;
+		
+		isNotLeapYear = !(year % 4 == 0);
+		
+		isNotLeapYear = isNotLeapYear && !(year % 100 != 0);
+		
+		isNotLeapYear = isNotLeapYear || !(year % 400 == 0);
+		
+		
+		System.out.println(isNotLeapYear);
 
 		// TODO: test your expression by changing 2025 to 2002 (false), 2023 (false),
 		// 2000 (true), and your birth year
