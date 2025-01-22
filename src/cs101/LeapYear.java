@@ -23,16 +23,15 @@ public class LeapYear {
 		// expressions)
 		// (not just set it to the literal `true` or `false`)
 		// print out `isNotLeapYear`
-		
+
 		boolean isNotLeapYear;
-		
+
 		isNotLeapYear = !(year % 4 == 0);
-		
+
 		isNotLeapYear = isNotLeapYear && !(year % 100 != 0);
-		
+
 		isNotLeapYear = isNotLeapYear || !(year % 400 == 0);
-		
-		
+
 		System.out.println(isNotLeapYear);
 
 		// TODO: test your expression by changing 2025 to 2002 (false), 2023 (false),

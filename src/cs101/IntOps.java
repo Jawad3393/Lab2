@@ -40,10 +40,10 @@ public class IntOps {
 		a = 10;
 		b = -3;
 		sum = a + b;
-	    prod = a * b;
+		prod = a * b;
 		quot = a / b;
 		rem = a % b;
-		
+
 		System.out.println(a + " + " + b + " = " + sum);
 		System.out.println(a + " * " + b + " = " + prod);
 		System.out.println(a + " / " + b + " = " + quot);
