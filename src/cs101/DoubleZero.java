@@ -16,7 +16,7 @@ public class DoubleZero {
 		double b = a / zero;
 		// If you print `b`, what do you think you will get?
 		// If I print 'b', I think i will get something like undefined or error because
-		// anything divided
+		// anything divided by
 		// 0 is undefined.
 
 		// TODO: Print `b`.
